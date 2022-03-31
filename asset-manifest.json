@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/InteractiveNavBar/static/js/main.23dd9455.js",
+    "static/media/IMx512.png": "/InteractiveNavBar/static/media/IMx512.c3463f51d25130ca3a64.png",
+    "static/media/face_black_24dp.svg": "/InteractiveNavBar/static/media/face_black_24dp.a87759c721a35916fbeb8ee60f109545.svg",
+    "index.html": "/InteractiveNavBar/index.html",
+    "static/media/favorite_border_black_24dp.svg": "/InteractiveNavBar/static/media/favorite_border_black_24dp.8d60aaea715a4d564778e139faa7de26.svg",
+    "static/media/analytics_black_24dp.svg": "/InteractiveNavBar/static/media/analytics_black_24dp.2923d04ee46fd6d26300dcf734d17497.svg",
+    "static/media/search_black_24dp.svg": "/InteractiveNavBar/static/media/search_black_24dp.6c95e853cf5a1eedd6e285cecedda3a3.svg",
+    "static/media/event_black_24dp.svg": "/InteractiveNavBar/static/media/event_black_24dp.9b5af0877a9900f07799ca8e8ec7417a.svg",
+    "static/media/home_black_24dp.svg": "/InteractiveNavBar/static/media/home_black_24dp.a0c1b0a7e81b8c3fa5b5b5adc7f75470.svg",
+    "static/media/chevron_right_black_24dp.svg": "/InteractiveNavBar/static/media/chevron_right_black_24dp.e9dec0634aac6d2d2247777612d97a18.svg",
+    "main.23dd9455.js.map": "/InteractiveNavBar/static/js/main.23dd9455.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.23dd9455.js"
+  ]
+}
