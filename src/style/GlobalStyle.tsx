@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1;
-	color : ${props=> props.theme.ModalTextColor}
+	background-color: ${props=>props.theme.BgColor};
+	color : ${props=> props.theme.textColor}
 }
 ol, ul {
 	list-style: none;

@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil'
 import { isExpand } from '../atoms'
-import { Text } from './NavCommonComponents'
+import { Texts } from './NavCommonComponents'
 import IMLogo from "../resources/IMx512.png";
 import styled from 'styled-components';
 
@@ -21,10 +21,10 @@ function NavHeader() {
   return (
     <NavTitle>
     <Logo src={IMLogo} />
-    <Text expand={isClicked}>
+    <Texts expand={isClicked}>
       <h2>I M Fine SD Team</h2>
       <h3>Web Developer</h3>
-    </Text>
+    </Texts>
   </NavTitle>
   )
 }

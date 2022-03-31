@@ -1,6 +1,6 @@
 import { useRecoilState } from "recoil"
 import { isExpand } from "../atoms"
-import { Icon, Text } from "./NavCommonComponents";
+import { Icon, Texts } from "./NavCommonComponents";
 import { ReactComponent as SearchIcon } from "../resources/search_black_24dp.svg";
 import styled from "styled-components";
 import { useRef } from "react";
@@ -16,6 +16,8 @@ import { useRef } from "react";
     padding: 14px 0px;
     border: none;
     background-color: inherit;
+    color : ${props=> props.theme.textColor};
+    font-weight: 600;
   }
   & input::placeholder {
     font-size: 13px;
@@ -41,9 +43,9 @@ function NavSearch() {
     <Icon>
       <SearchIcon onClick={clickSearchIcon} />
     </Icon>
-    <Text expand={isClicked}>
+    <Texts expand={isClicked}>
       <input ref={input} type="text" placeholder="Search..."></input>
-    </Text>
+    </Texts>
   </Search>
   )
 }

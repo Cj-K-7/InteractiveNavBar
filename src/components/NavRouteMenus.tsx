@@ -3,7 +3,7 @@ import { ReactComponent as ScheduleIcon } from "../resources/event_black_24dp.sv
 import { ReactComponent as AnalyticIcon } from "../resources/analytics_black_24dp.svg";
 import { ReactComponent as LikeIcon } from "../resources/favorite_border_black_24dp.svg";
 import { ReactComponent as UserIcon } from "../resources/face_black_24dp.svg";
-import { Icon, Text } from "./NavCommonComponents";
+import { Icon, Texts } from "./NavCommonComponents";
 import { Link, useMatch } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import { isExpand } from "../atoms";
@@ -22,11 +22,11 @@ const Menu = styled.div<{ active: boolean }>`
     align-items: center;
     transition: color 0.3s 0.2s;
     color: ${(props) =>
-      props.active ? props.theme.hoverColor : props.theme.ModalTextColor};
+      props.active ? props.theme.hoverColor : props.theme.NavTextColor};
   }
   & span svg{
     fill: ${(props) =>
-      props.active ? props.theme.hoverColor : props.theme.ModalTextColor};
+      props.active ? props.theme.hoverColor : props.theme.NavTextColor};
     transition: fill 0.3s 0.2s;
   }
 `;
@@ -57,7 +57,7 @@ function NavRouteMenus() {
           <Icon>
             <DashboardIcon />
           </Icon>
-          <Text expand={isClicked}>Dashboard</Text>
+          <Texts expand={isClicked}>Dashboard</Texts>
         </Link>
         {home ? <ActiveMenu layoutId="active" /> : null}
       </Menu>
@@ -66,7 +66,7 @@ function NavRouteMenus() {
           <Icon>
             <ScheduleIcon />
           </Icon>
-          <Text expand={isClicked}>Schedule</Text>
+          <Texts expand={isClicked}>Schedule</Texts>
         </Link>
         {schedule ? <ActiveMenu layoutId="active" /> : null}
       </Menu>
@@ -75,7 +75,7 @@ function NavRouteMenus() {
           <Icon>
             <AnalyticIcon />
           </Icon>
-          <Text expand={isClicked}>Analytics</Text>
+          <Texts expand={isClicked}>Analytics</Texts>
         </Link>
         {anlytics ? <ActiveMenu layoutId="active" /> : null}
       </Menu>
@@ -84,7 +84,7 @@ function NavRouteMenus() {
           <Icon>
             <LikeIcon />
           </Icon>
-          <Text expand={isClicked}>Likes</Text>
+          <Texts expand={isClicked}>Likes</Texts>
         </Link>
         {like ? <ActiveMenu layoutId="active" /> : null}
       </Menu>
@@ -93,7 +93,7 @@ function NavRouteMenus() {
           <Icon>
             <UserIcon />
           </Icon>
-          <Text expand={isClicked}>User</Text>
+          <Texts expand={isClicked}>User</Texts>
         </Link>
         {user ? <ActiveMenu layoutId="active" /> : null}
       </Menu>

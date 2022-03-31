@@ -11,7 +11,7 @@ const ExpandBtn = styled.div<{ expand: boolean }>`
   top: 33px;
   right: -13px;
   border-radius: 50%;
-  background-color: ${(props) => props.theme.ModalBgColor};
+  background-color: ${(props) => props.theme.activeColor};
   & svg {
     ${(props) => (props.expand ? "transform: rotateZ(180deg);" : "")}
     transition: 0.5s;

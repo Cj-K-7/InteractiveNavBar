@@ -7,8 +7,8 @@ declare module 'styled-components' {
         activeColor : string;
         hoverColor  :string;
         SearchBgColor : string;
-        ModalBgColor : string;
-        ModalTextColor : string;
-        ModalShadow : string;
+        NavBgColor : string;
+        NavTextColor : string;
+        NavShadow : string;
     }
 }

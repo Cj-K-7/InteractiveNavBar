@@ -8,7 +8,7 @@ export const Icon = styled.span`
   min-width: 42px;
 `;
 
-export const Text = styled.h1<{ expand: boolean }>`
+export const Texts = styled.div<{ expand: boolean }>`
   margin-left: 10px;
   opacity: ${(props) => (props.expand ? "1" : "0")};
   visibility: ${(props) => (props.expand ? "visible" : "hidden")};
