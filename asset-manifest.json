@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/InteractiveNavBar/static/js/main.20afeb3b.js",
+    "main.js": "/InteractiveNavBar/static/js/main.13eb2897.js",
     "static/media/IMx512.png": "/InteractiveNavBar/static/media/IMx512.c3463f51d25130ca3a64.png",
     "static/media/face_black_24dp.svg": "/InteractiveNavBar/static/media/face_black_24dp.a87759c721a35916fbeb8ee60f109545.svg",
     "index.html": "/InteractiveNavBar/index.html",
@@ -12,9 +12,9 @@
     "static/media/event_black_24dp.svg": "/InteractiveNavBar/static/media/event_black_24dp.9b5af0877a9900f07799ca8e8ec7417a.svg",
     "static/media/home_black_24dp.svg": "/InteractiveNavBar/static/media/home_black_24dp.a0c1b0a7e81b8c3fa5b5b5adc7f75470.svg",
     "static/media/chevron_right_black_24dp.svg": "/InteractiveNavBar/static/media/chevron_right_black_24dp.e9dec0634aac6d2d2247777612d97a18.svg",
-    "main.20afeb3b.js.map": "/InteractiveNavBar/static/js/main.20afeb3b.js.map"
+    "main.13eb2897.js.map": "/InteractiveNavBar/static/js/main.13eb2897.js.map"
   },
   "entrypoints": [
-    "static/js/main.20afeb3b.js"
+    "static/js/main.13eb2897.js"
   ]
 }
