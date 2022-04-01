@@ -3,6 +3,7 @@ import 'styled-components'
 declare module 'styled-components' {
     export interface DefaultTheme {
         BgColor : string;
+        MainBgColor : string;
         textColor : string;
         activeColor : string;
         hoverColor  :string;

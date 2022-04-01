@@ -2,6 +2,7 @@ import { DefaultTheme } from "styled-components";
 
 export const lightTheme : DefaultTheme = {
   BgColor: "rgb(229,229,229)",
+  MainBgColor: "rgb(255,255,255)",
   textColor: "rgb(116,116,116)",
   activeColor: "rgb(68, 177, 255)",
   hoverColor: "rgb(255,255,255)",
@@ -13,6 +14,7 @@ export const lightTheme : DefaultTheme = {
 
 export const dakrTheme : DefaultTheme = {
   BgColor: "rgb(52,52,52)",
+  MainBgColor: "rgb(22,22,22)",
   textColor: "rgb(116,116,116)",
   activeColor: "rgb(50,50,50)",
   hoverColor: "rgb(255,255,255)",

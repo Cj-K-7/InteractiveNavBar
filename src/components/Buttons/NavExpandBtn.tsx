@@ -1,6 +1,6 @@
-import { ReactComponent as ChevronIcon } from "../resources/chevron_right_black_24dp.svg";
+import { ReactComponent as ChevronIcon } from "../../resources/chevron_right_black_24dp.svg";
 import { useRecoilState } from "recoil";
-import { isExpand } from "../atoms";
+import { isExpand } from "../../atoms";
 import styled from "styled-components";
 
 const ExpandBtn = styled.div<{ expand: boolean }>`

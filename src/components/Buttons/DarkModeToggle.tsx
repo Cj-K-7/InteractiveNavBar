@@ -1,6 +1,6 @@
 import { useRecoilState } from "recoil";
 import styled from "styled-components";
-import { isDark } from "../atoms";
+import { isDark } from "../../atoms";
 
 const ToggleButton = styled.input<{ darkeMode: boolean }>`
     position: relative;

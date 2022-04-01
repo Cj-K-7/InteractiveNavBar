@@ -1,27 +1,31 @@
 import { useRecoilValue } from "recoil";
 import styled from "styled-components";
-import { isExpand } from "../atoms";
-import DarkModeToggle from "./DarkModeToggle";
-import { Icon, Texts } from "./NavCommonComponents";
-import { ReactComponent as DarkIcon } from "../resources/dark_mode_black_24dp.svg";
-import { ReactComponent as LogOutIcon } from "../resources/logout_black_24dp.svg";
-
-const Footer = styled.div`
-  width: 100%;
-  padding-top: 10px;
-`;
+import { isExpand } from "../../atoms";
+import DarkModeToggle from "../Buttons/DarkModeToggle";
+import { Icon, Texts } from "./NavCommonStyles";
+import { ReactComponent as DarkIcon } from "../../resources/dark_mode_black_24dp.svg";
+import { ReactComponent as LogOutIcon } from "../../resources/logout_black_24dp.svg";
 
 const FooterMenu = styled.div`
   display: flex;
   align-items: center;
   padding: 16px 0px;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    left: -20px;
+    height: 1px;
+    background-color: ${(props) => props.theme.NavTextColor};
+  }
 `;
 
 const DarKMenu = styled.div<{ expand: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 12px 0px;
   padding-right: 16px;
   border-radius: 10px;
   background-color: ${(props) => props.theme.SearchBgColor};
@@ -43,7 +47,7 @@ const DarKMenu = styled.div<{ expand: boolean }>`
 function NavFooter() {
   const isExpanded = useRecoilValue(isExpand);
   return (
-    <Footer>
+    <>
       <FooterMenu>
         <Icon>
           <LogOutIcon />
@@ -61,7 +65,7 @@ function NavFooter() {
           <DarkModeToggle />
         </span>
       </DarKMenu>
-    </Footer>
+    </>
   );
 }
 
