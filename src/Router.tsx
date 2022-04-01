@@ -29,7 +29,7 @@ const ContentsDisplay = styled.div<{expand:boolean}>`
 function Router() {
   const isExpanded = useRecoilValue(isExpand);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ContentsDisplay expand={isExpanded}>
         <Routes>
           <Route path="/" element={<Home />} />
