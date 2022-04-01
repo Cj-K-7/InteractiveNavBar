@@ -28,6 +28,10 @@ const Container = styled.div<{ expand: boolean }>`
   svg {
     fill: ${(props) => props.theme.NavTextColor};
   }
+  @media (max-width : 500px) {
+    left: -65px;
+    transform:  ${props => props.expand ? "translateX(70px)" : "translateX(0)"};
+  }
 `;
 
 const Top = styled.div`
